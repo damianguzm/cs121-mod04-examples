@@ -5,7 +5,7 @@ public class BasicWhileLoops {
         
         /* Basic example of a while loop, counting down */
         int numCookies = 6;  // starting condition
-        while (numCookies > 1)  // looping condition
+        while (numCookies >= 1)  // looping condition
         {
             System.out.println("Here's a cookie!"); // what we do every time
             numCookies = numCookies - 1; //loop counter
@@ -28,7 +28,7 @@ public class BasicWhileLoops {
         /* Basic example of while loop with Strings and sentinel value */
         Scanner kbd = new Scanner(System.in);
         String input = "";  //Starting condition
-        while (!input.equals("q")) //looping condition
+        while (!(input.length() > 0 && input.charAt(0) == 'q')) //looping condition
         {
             System.out.print("Enter something (q to quit): ");
             input = kbd.nextLine().toLowerCase(); //loop iterator

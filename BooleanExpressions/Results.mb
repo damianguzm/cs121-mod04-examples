@@ -1,0 +1,11 @@
+Bolean Expression Expermimentation
+1.Result: An alert has not been triggered because the  (lightsOn && away) || (timeOn > MAX_TIME)  
+evaluates to true however alertmode is false with which evaluates to false.
+
+2.Result: An alert has not been triggered because even though (timeOn > MAX_TIME) is true the alertmode still causes  
+the result to be false.
+
+3.Result: An alert has been triggered because alertmode was changed to true and (lightsOn && away) || (timeOn > MAX_TIME) evaluates to true. 
+
+4.Result: An alert has not been triggered because (lightsOn && away) and (timeOn > MAX_TIME) both are false which results  
+in the whole thing being false. 

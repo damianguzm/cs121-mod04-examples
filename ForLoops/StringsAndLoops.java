@@ -23,8 +23,15 @@ public class StringsAndLoops {
 
         /* Write a loop that reverses the String stored in word and stores
          *   the result in a String variable named reverse */
-        // String word = "spoons";
-        // String reverse = "";
+        String word = "spoons";
+        String reverse = "";
+
+        for (int i = word.length() - 1; i >=0; i--) {
+
+            reverse += word.charAt(i);
+        }
+        
+        System.out.println("The reverse word of " + word + " is " + reverse);
 
     }
 }

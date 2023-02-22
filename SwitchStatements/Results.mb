@@ -1,0 +1,14 @@
+Run the program with each of the following grades as input values.
+    95
+    Result: This grade is well above average. Excellent.
+    83
+    Result: The grade is above average. Nice job.
+    71
+    Result: That grade is average.
+    64
+    Result: That grade is below average. Please see the instructor for assistance.
+    59:
+    Result: That grade is not passing. Please see the instructor for assistance.
+Modify the switch statement to get rid of the break statements. 
+    Result: When I entered the values the program output all of the statements because the break were removed causing the program  
+    to keep running. 

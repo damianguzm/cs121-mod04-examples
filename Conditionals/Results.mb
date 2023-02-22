@@ -1,0 +1,27 @@
+1.)
+
+1 2 3
+    Result: The minimum value for the 3 integers is 1.
+3 2 1
+    Result: The minimum value is still 1.
+1 1 3
+    Result: Minimum value is 1.
+3 1 1
+    Result: Minimum value is 1.
+3 3 3
+    Result: The minimum value is 3
+
+Modify code for technique 2, replacing each instance of <= iwth <.
+    Result: When I entered the numbers 1 1 3 and the numbers after that the result mimimum value of technique 2 became   
+    2147483647. I am not really sure why the minimum value results in this number.
+
+ 2.)
+
+ Play three games and record what the correct answer was for each game.
+    Result: The correct number for game 1 was 10. The correct number for game 2 was 8. The correct number for game 3 was 5. 
+Modify the Random obmect so that it is instantiated using a seed number. 
+    Result: The correct number for game 1 was 3. Correct number for game 2 was 3. The result was 3 again. Due to the seed number being 123 it  
+    caused the number to be 3 everytime. 
+
+
+

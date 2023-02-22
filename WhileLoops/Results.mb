@@ -1,0 +1,7 @@
+1. Modify the numCookies example replacing the > with >=.
+    Result: After changing the program the remaining cookies is 0 because when numCookies equals 1 in the loop it  
+    subtracts 1 from the 1 resulting in 0 to be outputted.
+
+Modify loop expression.
+    Result: When I modified the expression it directly states to input a word with q to quit instead of outputting here's a cookie.
+    

@@ -4,20 +4,23 @@ public class NestedLoops {
         /* How many times will "I'm here!" be printed? */
         for (int i = 0; i < 10; i++)
         {
-            for (int j = 0; j < 10; j++)
+            int j = 0;
+            while ( j < 10)
             {
                 System.out.println("I'm here!");
+                j++;
             }
         }
 
 
         /* What does the following nested loop print? */
-        int gridSize = 10;
-        for (int i = 0; i < gridSize; i++ )
+        int numRows = 12;
+        int numCols = 92;
+        for (int i = 0; i < numRows; i++ )
         {
-            for (int j = 0; j < gridSize; j++ )
+            for (int j = 0; j < numCols; j++ )
             {
-                System.out.print(i * j + " ");
+                System.out.printf("%3d", i * j);
             }
             System.out.println();
         }

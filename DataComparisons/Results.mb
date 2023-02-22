@@ -1,0 +1,11 @@
+1. Experiment by decreasing TOLERANCE valuse, identifying which provide a match that is "close enough"
+    Result: After putting 16 zeroes in front of the 1 the program said that the result was not 0.1.  
+    Any number smaller than that does not work.
+
+2.Modify the comparison between p1 and p3 to be a comparison between p1 and p2.
+    Result: The program outputted that the objects are not aliases because it does not have the same reference in RAM  
+    p1 and p3 do. 
+
+Modify the comparison between p1 and p2 to be a coparison between p1 and p3 
+    Result: The output stayed the same because p1 and p3 both have the same contents as they were initialized at the beginning.
+    

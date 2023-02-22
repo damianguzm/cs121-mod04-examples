@@ -1,0 +1,11 @@
+1. Implement the for loop that reverses the text in the word String variable stor the result the reverse String variable.
+    Result: Each time the word spoons goes into the for loop, and it is greater than or equal to 0, 1 is subtracted each time and stored into  
+    the variable reverse. Each time the letters stack onto each other as they are stored creating the reversed word. 
+
+2. In the im her example, replace the inner for loop with the while loop.
+    Result: I believe that because of the change of the inner for loop to the while loop it caused the message I'm here!   
+    to be printed 100 times.
+
+Modify grid example using the code below so that numrows and numCols can be specified sparately.
+    Result: After modifying the programs it arranged the values into 10 columns and 10 rows.
+    
